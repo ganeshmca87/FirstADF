@@ -1,0 +1,9 @@
+{
+	"name": "FirstTestDFGP",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "7abfedf1-f146-4d40-b0f0-d680d47b3f28",
+		"tenantId": "e7fcfcf6-57c5-4aa0-a9cb-8c53ecec3972"
+	}
+}

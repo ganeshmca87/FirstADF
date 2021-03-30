@@ -1,0 +1,40 @@
+{
+	"name": "DBSQL",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SqlServerDevDB",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [
+			{
+				"name": "empid",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "empname",
+				"type": "varchar"
+			},
+			{
+				"name": "department",
+				"type": "varchar"
+			},
+			{
+				"name": "designation",
+				"type": "varchar"
+			},
+			{
+				"name": "salary",
+				"type": "int",
+				"precision": 10
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "tbl_empdata"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
